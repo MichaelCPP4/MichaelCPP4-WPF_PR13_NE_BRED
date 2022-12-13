@@ -69,22 +69,6 @@ namespace Pr21
             vivod.Clear();
             if (mas != null)
             {
-                /*
-                 * int kol = mas.GetLength(1);
-
-                for (int j = 0; j < mas.GetLength(1); j++)
-                {
-                    for (int i = 0; i < mas.GetLength(0); i++)
-                    {
-                        //current = mas[i, j];
-                        if (i > 0 && mas[i, j] > mas[i - 1, j])
-                        {
-                            kol--;
-                            break;
-                        }
-                    }
-                }*/
-
                 vivod.Text = vivod.Text + "\nКолличество столбцов: " + ClassArray.FindToColums(mas);
             }
         }
